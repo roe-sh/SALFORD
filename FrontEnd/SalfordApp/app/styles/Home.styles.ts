@@ -1,0 +1,81 @@
+import { StyleSheet } from "react-native"
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#FCFCFC",
+    paddingHorizontal: 20,
+    paddingTop: 50,
+  },
+  loader: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#fff",
+  },
+  title: { fontSize: 28, fontWeight: "700", marginVertical: 20, color: "#222" },
+  searchContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    borderWidth: 1,
+    borderColor: "#E0E0E0",
+    borderRadius: 12,
+    backgroundColor: "#fff",
+    paddingHorizontal: 10,
+    marginBottom: 20,
+  },
+  search: { flex: 1, height: 45, fontSize: 15 },
+  filterButton: { backgroundColor: "#E6F2F2", borderRadius: 10, padding: 6 },
+  category: {
+    backgroundColor: "#E6F2F2",
+    borderRadius: 20,
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+    marginRight: 10,
+  },
+  categoryText: { color: "#007F7F", fontWeight: "500" },
+  sectionHeader: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginBottom: 8,
+  },
+  sectionTitle: { fontSize: 20, fontWeight: "600", color: "#1E1E1E" },
+  seeAll: { color: "#007F7F", fontWeight: "600", fontSize: 14 },
+  card: {
+    backgroundColor: "#fff",
+    borderRadius: 16,
+    marginRight: 16,
+    shadowColor: "#000",
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 2,
+    width: 200,
+    overflow: "hidden",
+  },
+  cardImage: { width: "100%", height: 120 },
+  price: {
+    position: "absolute",
+    top: 8,
+    left: 8,
+    backgroundColor: "#fff",
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    borderRadius: 8,
+    fontWeight: "700",
+  },
+  courseTitle: {
+    fontSize: 16,
+    fontWeight: "600",
+    marginTop: 8,
+    paddingHorizontal: 10,
+  },
+  instructor: {
+    fontSize: 14,
+    color: "#666",
+    paddingHorizontal: 10,
+    marginBottom: 10,
+  },
+})
+
+export default styles

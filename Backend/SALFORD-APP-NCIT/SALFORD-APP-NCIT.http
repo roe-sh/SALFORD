@@ -1,0 +1,6 @@
+@SALFORD_APP_NCIT_HostAddress = http://localhost:5252
+
+GET {{SALFORD_APP_NCIT_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
